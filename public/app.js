@@ -242,23 +242,43 @@ function renderDetail(){
   wrap.appendChild(ce('div','full-sentence',d.full_sentence_text));
   const grid = ce('div','meta-grid');
   const meta = [
-    ['주장 유형', d.claim_type], ['현재 근거 수준', d.current_support_level], ['목표 근거 수준', d.target_support_level], ['리스크', d.risk_level], ['근거 요약', d.support_summary], ['상한 메모', d.ceiling_note || '-'],
-    ['검증 판정', d.validator_verdict || '-'], ['최강 근거 라벨', d.strongest_support_label || '-'], ['사람 근거 포함', d.human_support_present === undefined ? '-' : (d.human_support_present ? '있음' : '없음')], ['구제 분류', d.salvage_class || '-'], ['재작성 권고', d.rewrite_recommendation || '-'], ['딥닝 모드', d.deepening_mode || '-'],
-    ['추천 문장', d.recommended_sentence_option || '-'], ['citation 전략', d.citation_strategy || '-'], ['citation primary', d.citation_primary || '-'], ['흐름 판정', d.transition_verdict || '-'], ['흐름 이슈', d.transition_issue_type || '-'], ['refresh 상태', d.refresh_job_status || '-']
+    ['주장 유형', formatKo(d.claim_type || '-', 'claim_type')],
+    ['현재 근거 수준', formatKo(d.current_support_level || '-', 'support_badge')],
+    ['목표 근거 수준', formatKo(d.target_support_level || '-', 'support_badge')],
+    ['리스크', formatKo(d.risk_level || '-', 'risk')],
+    ['근거 요약', d.support_summary || '-'],
+    ['상한 메모', d.ceiling_note || '-'],
+    ['검증 판정', formatKo(d.validator_verdict || '-', 'status')],
+    ['최강 근거 라벨', formatKo(d.strongest_support_label || '-', 'support_badge')],
+    ['사람 근거 포함', d.human_support_present === undefined ? '-' : (d.human_support_present ? '있음' : '없음')],
+    ['구제 분류', formatKo(d.salvage_class || '-', 'status')],
+    ['재작성 권고', formatKo(d.rewrite_recommendation || '-', 'rewrite')],
+    ['딥닝 모드', formatKo(d.deepening_mode || '-', 'action')],
+    ['추천 문장', d.recommended_sentence_option || '-'],
+    ['citation 전략', formatKo(d.citation_strategy || '-', 'citation')],
+    ['citation primary', d.citation_primary || '-'],
+    ['흐름 판정', formatKo(d.transition_verdict || '-', 'status')],
+    ['흐름 이슈', d.transition_issue_type || '-'],
+    ['refresh 상태', formatKo(d.refresh_job_status || '-', 'status')]
   ];
   meta.forEach(([k,v])=>{ const box=ce('div','meta-box'); const kDiv=ce('div','muted',k); const vDiv=ce('div','', String(v || '-')); box.appendChild(kDiv); box.appendChild(vDiv); grid.appendChild(box); });
   wrap.appendChild(grid);
   const why = ce('div','meta-box stacked-box');
-  why.innerHTML = `
-    <div class="muted">문장 경고 이유</div>
-    <div class="stacked-value">${(d.why_flagged||[]).join(', ') || '-'}</div>
-    <div class="muted" style="margin-top:12px">검증 reason codes</div>
-    <div class="stacked-value">${(d.validator_reason_codes||[]).join(', ') || '-'}</div>
-    <div class="muted" style="margin-top:12px">권장 후속 작업</div>
-    <div class="stacked-value">${(d.recommended_followup||[]).join(', ') || '-'}</div>
-    <div class="muted" style="margin-top:12px">다음 액션</div>
-    <div class="stacked-value">${d.salvage_next_action || d.rewrite_direction || '-'}</div>
-  `;
+  const blocks = [
+    ['문장 경고 이유', formatKoList(d.why_flagged || [], 'claim_type')],
+    ['검증 reason codes', formatKoList(d.validator_reason_codes || [], 'reason_code')],
+    ['권장 후속 작업', formatKoList(d.recommended_followup || [], 'action')],
+    ['다음 액션', [formatKo(d.salvage_next_action || d.rewrite_direction || '-', d.salvage_next_action ? 'action' : 'rewrite')]],
+  ];
+  blocks.forEach(([title, values], idx)=>{
+    const t=ce('div','muted',title);
+    if(idx>0) t.style.marginTop='12px';
+    why.appendChild(t);
+    const v=ce('div','stacked-value');
+    const arr=(values||[]).filter(Boolean);
+    v.textContent = arr.length ? arr.join(', ') : '-';
+    why.appendChild(v);
+  });
   wrap.appendChild(why);
   const qa = ce('div','quick-actions action-grid');
   ['맞음','틀림','과민판정','근거약함','더 찾아라','버려라','살려라'].forEach(label=>{
@@ -333,17 +353,17 @@ function renderEvidence(){
 
 function renderRecommendations(){
   if(!state.sentenceDetail) return '<div class="muted">추천 정보 없음</div>';
-  return `<div class="paper-card"><div><strong>추천 문장</strong></div><div>${state.sentenceDetail.recommended_sentence_option || '-'}</div><div class="muted">재작성 권고: ${state.sentenceDetail.rewrite_recommendation || '-'}</div></div>`;
+  return `<div class="paper-card"><div><strong>추천 문장</strong></div><div>${state.sentenceDetail.recommended_sentence_option || '-'}</div><div class="muted">재작성 권고: ${formatKo(state.sentenceDetail.rewrite_recommendation || '-', 'rewrite')}</div></div>`;
 }
 
 function renderCitation(){
   if(!state.sentenceDetail) return '<div class="muted">citation 정보 없음</div>';
-  return `<div class="paper-card"><div><strong>citation 전략</strong></div><div>${state.sentenceDetail.citation_strategy || '-'}</div><div class="muted">primary: ${state.sentenceDetail.citation_primary || '-'}</div><div class="muted">paragraph merge: ${(state.sentenceDetail.paragraph_merge_candidate_ids || []).join(', ') || '-'}</div></div>`;
+  return `<div class="paper-card"><div><strong>citation 전략</strong></div><div>${formatKo(state.sentenceDetail.citation_strategy || '-', 'citation')}</div><div class="muted">primary: ${state.sentenceDetail.citation_primary || '-'}</div><div class="muted">paragraph merge: ${(state.sentenceDetail.paragraph_merge_candidate_ids || []).join(', ') || '-'}</div></div>`;
 }
 
 function renderTransition(){
   if(!state.sentenceDetail) return '<div class="muted">흐름 정보 없음</div>';
-  return `<div class="paper-card"><div><strong>흐름 판정</strong></div><div>${state.sentenceDetail.transition_verdict || '-'}</div><div class="muted">이슈: ${state.sentenceDetail.transition_issue_type || '-'}</div></div>`;
+  return `<div class="paper-card"><div><strong>흐름 판정</strong></div><div>${formatKo(state.sentenceDetail.transition_verdict || '-', 'status')}</div><div class="muted">이슈: ${state.sentenceDetail.transition_issue_type || '-'}</div></div>`;
 }
 
 function renderFeedback(){
