@@ -27,12 +27,12 @@
       <div class="filters">
         <select id="statusFilter">
           <option value="">전체 상태</option>
-          <option value="strong">strong</option>
-          <option value="weak">weak</option>
-          <option value="risky">risky</option>
-          <option value="caveat-needed">caveat-needed</option>
-          <option value="refutation-review">refutation-review</option>
-          <option value="pending-evidence">pending-evidence</option>
+          <option value="strong">근거 강함</option>
+          <option value="weak">근거 약함</option>
+          <option value="risky">위험 문장</option>
+          <option value="caveat-needed">주의 문구 필요</option>
+          <option value="refutation-review">반박 검토 필요</option>
+          <option value="pending-evidence">근거 대기</option>
         </select>
         <select id="riskFilter">
           <option value="">전체 리스크</option>
@@ -82,6 +82,7 @@
 
   <div id="debugPanel" class="debug-panel hidden"></div>
 
+  <script src="/ko_labels.js"></script>
   <script src="/app.js?v=20260423b"></script>
 </body>
 </html>

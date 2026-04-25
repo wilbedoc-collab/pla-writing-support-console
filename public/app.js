@@ -99,11 +99,12 @@ function renderSentenceCard(item, onClick){
   card.appendChild(ce('div','sentence-id',item.sentence_id));
   card.appendChild(ce('div','',item.preview_text));
   const badges = ce('div','badges');
-  badges.appendChild(ce('span','badge',item.claim_badge));
-  badges.appendChild(ce('span','badge',item.support_badge));
-  const risk = ce('span','badge risk-' + item.risk_color,item.risk_color);
+  badges.appendChild(renderKoBadge(item.claim_badge, 'claim_type', {titleRaw:true}));
+  badges.appendChild(renderKoBadge(item.support_badge, 'support_badge', {titleRaw:true}));
+  const risk = renderKoBadge(item.risk_color, 'risk', {titleRaw:true});
+  risk.classList.add('risk-' + item.risk_color);
   badges.appendChild(risk);
-  if(item.override_verdict){ badges.appendChild(ce('span','badge',`판정:${item.override_verdict}`)); }
+  if(item.override_verdict){ const ov=ce('span','badge'); ov.textContent=`판정:${item.override_verdict}`; badges.appendChild(ov); }
   card.appendChild(badges);
   return card;
 }
@@ -245,7 +246,7 @@ function renderDetail(){
     ['검증 판정', d.validator_verdict || '-'], ['최강 근거 라벨', d.strongest_support_label || '-'], ['사람 근거 포함', d.human_support_present === undefined ? '-' : (d.human_support_present ? '있음' : '없음')], ['구제 분류', d.salvage_class || '-'], ['재작성 권고', d.rewrite_recommendation || '-'], ['딥닝 모드', d.deepening_mode || '-'],
     ['추천 문장', d.recommended_sentence_option || '-'], ['citation 전략', d.citation_strategy || '-'], ['citation primary', d.citation_primary || '-'], ['흐름 판정', d.transition_verdict || '-'], ['흐름 이슈', d.transition_issue_type || '-'], ['refresh 상태', d.refresh_job_status || '-']
   ];
-  meta.forEach(([k,v])=>{ const box=ce('div','meta-box'); box.innerHTML=`<div class="muted">${k}</div><div>${v || '-'}</div>`; grid.appendChild(box); });
+  meta.forEach(([k,v])=>{ const box=ce('div','meta-box'); const kDiv=ce('div','muted',k); const vDiv=ce('div','', String(v || '-')); box.appendChild(kDiv); box.appendChild(vDiv); grid.appendChild(box); });
   wrap.appendChild(grid);
   const why = ce('div','meta-box stacked-box');
   why.innerHTML = `
@@ -354,10 +355,10 @@ function renderRefutation(){
   if(!state.refutation) return '<div class="muted">refutation 정보 없음</div>';
   return `
     <div class="alert-card">
-      <div><strong>${state.refutation.support_grade || 'none'}</strong></div>
-      <div class="muted">refutation strength: ${state.refutation.refutation_strength || '-'}</div>
-      <div class="muted">scope: ${state.refutation.refutation_scope || '-'}</div>
-      <div class="muted">abandon/pivot: ${state.refutation.abandonment_recommended_flag ? 'yes' : 'no'}</div>
+      <div><strong>${formatKo(state.refutation.support_grade || 'none', 'support_badge')}</strong></div>
+      <div class="muted">반박 강도: ${formatKo(state.refutation.refutation_strength || '-', 'risk')}</div>
+      <div class="muted">반박 범위: ${state.refutation.refutation_scope || '-'}</div>
+      <div class="muted">현재 형태 유지 가능 여부: ${state.refutation.abandonment_recommended_flag ? '유지 어려움' : '재검토 후 유지 가능'}</div>
     </div>
   `;
 }
