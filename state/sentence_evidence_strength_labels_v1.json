@@ -1,0 +1,125 @@
+[
+  {
+    "sentence_id": "S003",
+    "strongest_support_label": "in_vitro",
+    "support_mix_profile": [
+      "in_vitro"
+    ],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S004",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S016",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S019",
+    "strongest_support_label": "in_vitro",
+    "support_mix_profile": [
+      "in_vitro"
+    ],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S020",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S021",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S023",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S025",
+    "strongest_support_label": "in_vitro",
+    "support_mix_profile": [
+      "in_vitro"
+    ],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S040",
+    "strongest_support_label": "in_vitro",
+    "support_mix_profile": [
+      "in_vitro",
+      "in_vitro",
+      "indirect_human"
+    ],
+    "human_support_present": true
+  },
+  {
+    "sentence_id": "S043",
+    "strongest_support_label": "mechanism_review",
+    "support_mix_profile": [
+      "mechanism_review"
+    ],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S045",
+    "strongest_support_label": "mechanism_review",
+    "support_mix_profile": [
+      "mechanism_review",
+      "in_vitro"
+    ],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S048",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S049",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S051",
+    "strongest_support_label": "mechanism_review",
+    "support_mix_profile": [
+      "mechanism_review"
+    ],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S054",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S058",
+    "strongest_support_label": "none",
+    "support_mix_profile": [],
+    "human_support_present": false
+  },
+  {
+    "sentence_id": "S059",
+    "strongest_support_label": "indirect_human",
+    "support_mix_profile": [
+      "indirect_human",
+      "in_vitro",
+      "in_vitro"
+    ],
+    "human_support_present": true
+  }
+]

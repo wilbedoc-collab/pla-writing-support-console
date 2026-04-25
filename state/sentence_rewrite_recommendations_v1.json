@@ -1,0 +1,145 @@
+[
+  {
+    "sentence_id": "S003",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "keyword_only_match"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S004",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S016",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S019",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S020",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S021",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S023",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S025",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "keyword_only_match"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S040",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S043",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S045",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "direct_quote_match",
+      "keyword_only_match"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S048",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S049",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S051",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  },
+  {
+    "sentence_id": "S054",
+    "recommendation_type": "soften_claim",
+    "rationale_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "suggested_direction": "직접 주장 대신 시사적/제한적 표현으로 낮추기"
+  },
+  {
+    "sentence_id": "S058",
+    "recommendation_type": "narrow_scope",
+    "rationale_codes": [
+      "no_attachable_support"
+    ],
+    "suggested_direction": "주장 범위를 좁히고 필요한 근거 종류를 명시하기"
+  },
+  {
+    "sentence_id": "S059",
+    "recommendation_type": "split_sentence_into_two_claims",
+    "rationale_codes": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "suggested_direction": "설명과 주장 요소를 둘로 분리하기"
+  }
+]

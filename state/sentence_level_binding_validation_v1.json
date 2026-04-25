@@ -1,0 +1,338 @@
+[
+  {
+    "sentence_id": "S003",
+    "verdict": "WARN",
+    "coverage_status": "weak_or_indirect",
+    "strongest_support_label": "in_vitro",
+    "human_support_present": false,
+    "evidence_checks": [
+      {
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "score": 2,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "keyword_only_match"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "keyword_only_match"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S004",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S016",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S019",
+    "verdict": "WARN",
+    "coverage_status": "weak_or_indirect",
+    "strongest_support_label": "in_vitro",
+    "human_support_present": false,
+    "evidence_checks": [
+      {
+        "paper_id": "Qin_2018_mmp_loop",
+        "score": 5,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "indirect_but_relevant",
+          "mechanism_support_only"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S020",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S021",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S023",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S025",
+    "verdict": "WARN",
+    "coverage_status": "weak_or_indirect",
+    "strongest_support_label": "in_vitro",
+    "human_support_present": false,
+    "evidence_checks": [
+      {
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "score": 2,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "keyword_only_match"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "keyword_only_match"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S040",
+    "verdict": "WARN",
+    "coverage_status": "covered",
+    "strongest_support_label": "in_vitro",
+    "human_support_present": true,
+    "evidence_checks": [
+      {
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "score": 10,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "direct_quote_match"
+        ]
+      },
+      {
+        "paper_id": "BMMSC_adhesion_phenotype_2009",
+        "score": 6,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "indirect_but_relevant"
+        ]
+      },
+      {
+        "paper_id": "Lukjanenko_2016_FN_niche",
+        "score": 5,
+        "support_directness": "indirect_human",
+        "reason_codes": [
+          "indirect_but_relevant"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S043",
+    "verdict": "WARN",
+    "coverage_status": "weak_or_indirect",
+    "strongest_support_label": "mechanism_review",
+    "human_support_present": false,
+    "evidence_checks": [
+      {
+        "paper_id": "Integrin_aging_review_2019",
+        "score": 6,
+        "support_directness": "mechanism_review",
+        "reason_codes": [
+          "indirect_but_relevant",
+          "mechanism_support_only"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S045",
+    "verdict": "WARN",
+    "coverage_status": "weak_or_indirect",
+    "strongest_support_label": "mechanism_review",
+    "human_support_present": false,
+    "evidence_checks": [
+      {
+        "paper_id": "Integrin_aging_review_2019",
+        "score": 8,
+        "support_directness": "mechanism_review",
+        "reason_codes": [
+          "direct_quote_match",
+          "mechanism_support_only"
+        ]
+      },
+      {
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "score": 2,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "keyword_only_match"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "direct_quote_match",
+      "keyword_only_match",
+      "mechanism_support_only"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S048",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S049",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S051",
+    "verdict": "WARN",
+    "coverage_status": "weak_or_indirect",
+    "strongest_support_label": "mechanism_review",
+    "human_support_present": false,
+    "evidence_checks": [
+      {
+        "paper_id": "FOXO_Nrf2_ECM_longevity",
+        "score": 5,
+        "support_directness": "mechanism_review",
+        "reason_codes": [
+          "indirect_but_relevant",
+          "mechanism_support_only"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S054",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S058",
+    "verdict": "EMPTY",
+    "coverage_status": "no_evidence",
+    "strongest_support_label": "none",
+    "human_support_present": false,
+    "evidence_checks": [],
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "better_candidate_exists": false
+  },
+  {
+    "sentence_id": "S059",
+    "verdict": "WARN",
+    "coverage_status": "covered",
+    "strongest_support_label": "indirect_human",
+    "human_support_present": true,
+    "evidence_checks": [
+      {
+        "paper_id": "Lukjanenko_2016_FN_niche",
+        "score": 11,
+        "support_directness": "indirect_human",
+        "reason_codes": [
+          "direct_quote_match"
+        ]
+      },
+      {
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "score": 6,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "indirect_but_relevant"
+        ]
+      },
+      {
+        "paper_id": "BMMSC_adhesion_phenotype_2009",
+        "score": 6,
+        "support_directness": "in_vitro",
+        "reason_codes": [
+          "indirect_but_relevant"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "better_candidate_exists": false
+  }
+]

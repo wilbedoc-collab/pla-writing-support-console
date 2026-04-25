@@ -1,0 +1,218 @@
+[
+  {
+    "sentence_id": "S003",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Sun_2011_young_ECM_MSC",
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "in_vitro"
+  },
+  {
+    "sentence_id": "S004",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S016",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S019",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Qin_2018_mmp_loop",
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "in_vitro"
+  },
+  {
+    "sentence_id": "S020",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S021",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S023",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S025",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Sun_2011_young_ECM_MSC",
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "in_vitro"
+  },
+  {
+    "sentence_id": "S040",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Sun_2011_young_ECM_MSC",
+    "secondary_citation_paper_ids": [
+      "BMMSC_adhesion_phenotype_2009",
+      "Lukjanenko_2016_FN_niche"
+    ],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [
+      "S025"
+    ],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "in_vitro"
+  },
+  {
+    "sentence_id": "S043",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Integrin_aging_review_2019",
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "mechanism_review"
+  },
+  {
+    "sentence_id": "S045",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Integrin_aging_review_2019",
+    "secondary_citation_paper_ids": [
+      "Sun_2011_young_ECM_MSC"
+    ],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [
+      "S043"
+    ],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "mechanism_review"
+  },
+  {
+    "sentence_id": "S048",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S049",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S051",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "FOXO_Nrf2_ECM_longevity",
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "mechanism_review"
+  },
+  {
+    "sentence_id": "S054",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S058",
+    "citation_strategy": "no_citation_recommended_until_salvaged",
+    "primary_citation_paper_id": null,
+    "secondary_citation_paper_ids": [],
+    "caveat_citation_needed": false,
+    "inline_citation_count_recommendation": 0,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "no_citation_needed",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "none"
+  },
+  {
+    "sentence_id": "S059",
+    "citation_strategy": "single_primary",
+    "primary_citation_paper_id": "Lukjanenko_2016_FN_niche",
+    "secondary_citation_paper_ids": [
+      "Sun_2011_young_ECM_MSC",
+      "BMMSC_adhesion_phenotype_2009"
+    ],
+    "caveat_citation_needed": true,
+    "inline_citation_count_recommendation": 1,
+    "paragraph_merge_candidate_ids": [],
+    "citation_role": "primary_direct_citation",
+    "why_here": "sentence-local primary support",
+    "citation_strength": "indirect_human"
+  }
+]

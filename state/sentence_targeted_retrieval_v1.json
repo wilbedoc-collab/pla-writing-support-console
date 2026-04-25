@@ -1,0 +1,459 @@
+[
+  {
+    "sentence_id": "S003",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "keyword_only_match"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "keyword_only_match"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S003::direct",
+      "S003::mechanism",
+      "S003::proxy",
+      "S003::caveat",
+      "S003::counter"
+    ]
+  },
+  {
+    "sentence_id": "S004",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "RETRIEVAL_RETRY",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S004::direct",
+      "S004::mechanism",
+      "S004::proxy",
+      "S004::caveat",
+      "S004::counter"
+    ]
+  },
+  {
+    "sentence_id": "S016",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S016::direct",
+      "S016::mechanism",
+      "S016::proxy",
+      "S016::caveat",
+      "S016::counter"
+    ]
+  },
+  {
+    "sentence_id": "S019",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S019::direct",
+      "S019::mechanism",
+      "S019::proxy",
+      "S019::caveat",
+      "S019::counter"
+    ]
+  },
+  {
+    "sentence_id": "S020",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S020::direct",
+      "S020::mechanism",
+      "S020::proxy",
+      "S020::caveat",
+      "S020::counter"
+    ]
+  },
+  {
+    "sentence_id": "S021",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S021::direct",
+      "S021::mechanism",
+      "S021::proxy",
+      "S021::caveat",
+      "S021::counter"
+    ]
+  },
+  {
+    "sentence_id": "S023",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S023::direct",
+      "S023::mechanism",
+      "S023::proxy",
+      "S023::caveat",
+      "S023::counter"
+    ]
+  },
+  {
+    "sentence_id": "S025",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "keyword_only_match"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "keyword_only_match"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S025::direct",
+      "S025::mechanism",
+      "S025::proxy",
+      "S025::caveat",
+      "S025::counter"
+    ]
+  },
+  {
+    "sentence_id": "S040",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S040::direct",
+      "S040::mechanism",
+      "S040::proxy",
+      "S040::caveat",
+      "S040::counter"
+    ]
+  },
+  {
+    "sentence_id": "S043",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S043::direct",
+      "S043::mechanism",
+      "S043::proxy",
+      "S043::caveat",
+      "S043::counter"
+    ]
+  },
+  {
+    "sentence_id": "S045",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "direct_quote_match",
+      "keyword_only_match",
+      "mechanism_support_only"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "direct_quote_match",
+      "keyword_only_match",
+      "mechanism_support_only"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S045::direct",
+      "S045::mechanism",
+      "S045::proxy",
+      "S045::caveat",
+      "S045::counter"
+    ]
+  },
+  {
+    "sentence_id": "S048",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S048::direct",
+      "S048::mechanism",
+      "S048::proxy",
+      "S048::caveat",
+      "S048::counter"
+    ]
+  },
+  {
+    "sentence_id": "S049",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S049::direct",
+      "S049::mechanism",
+      "S049::proxy",
+      "S049::caveat",
+      "S049::counter"
+    ]
+  },
+  {
+    "sentence_id": "S051",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S051::direct",
+      "S051::mechanism",
+      "S051::proxy",
+      "S051::caveat",
+      "S051::counter"
+    ]
+  },
+  {
+    "sentence_id": "S054",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "SENTENCE_WEAKEN_REQUIRED",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S054::direct",
+      "S054::mechanism",
+      "S054::proxy",
+      "S054::caveat",
+      "S054::counter"
+    ]
+  },
+  {
+    "sentence_id": "S058",
+    "validator_verdict": "EMPTY",
+    "reason_codes": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "salvage_class": "RETRIEVAL_RETRY",
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S058::direct",
+      "S058::mechanism",
+      "S058::proxy",
+      "S058::caveat",
+      "S058::counter"
+    ]
+  },
+  {
+    "sentence_id": "S059",
+    "validator_verdict": "WARN",
+    "reason_codes": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "salvage_class": null,
+    "weakness_profile": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "query_modes": [
+      "direct",
+      "mechanism",
+      "proxy",
+      "caveat",
+      "counter"
+    ],
+    "queries": [
+      "S059::direct",
+      "S059::mechanism",
+      "S059::proxy",
+      "S059::caveat",
+      "S059::counter"
+    ]
+  }
+]

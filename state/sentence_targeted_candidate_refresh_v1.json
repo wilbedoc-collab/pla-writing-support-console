@@ -1,0 +1,257 @@
+[
+  {
+    "sentence_id": "S003",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S003-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S003-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S004",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S004-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S004-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S016",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S016-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S016-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S019",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S019-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S019-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S020",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S020-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S020-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S021",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S021-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S021-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S023",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S023-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S023-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S025",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S025-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S025-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S040",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S040-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S040-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S043",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S043-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S043-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S045",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S045-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S045-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S048",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S048-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S048-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S049",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S049-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S049-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S051",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S051-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S051-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S054",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S054-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S054-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S058",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S058-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S058-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S059",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S059-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S059-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  }
+]

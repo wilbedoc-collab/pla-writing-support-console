@@ -1,0 +1,74 @@
+[
+  {
+    "sentence_id": "S004",
+    "salvage_class": "RETRIEVAL_RETRY",
+    "missing_facet": "attachable evidence missing",
+    "preferred_evidence_type": "direct_or_indirect_human",
+    "rewrite_required": false,
+    "next_action": "retry retrieval with narrowed query"
+  },
+  {
+    "sentence_id": "S016",
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "missing_facet": "direct support missing",
+    "preferred_evidence_type": "mechanism_review_or_in_vitro",
+    "rewrite_required": false,
+    "next_action": "add mechanism-grounded support"
+  },
+  {
+    "sentence_id": "S020",
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "missing_facet": "direct support missing",
+    "preferred_evidence_type": "mechanism_review_or_in_vitro",
+    "rewrite_required": false,
+    "next_action": "add mechanism-grounded support"
+  },
+  {
+    "sentence_id": "S021",
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "missing_facet": "direct support missing",
+    "preferred_evidence_type": "mechanism_review_or_in_vitro",
+    "rewrite_required": false,
+    "next_action": "add mechanism-grounded support"
+  },
+  {
+    "sentence_id": "S023",
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "missing_facet": "direct support missing",
+    "preferred_evidence_type": "mechanism_review_or_in_vitro",
+    "rewrite_required": false,
+    "next_action": "add mechanism-grounded support"
+  },
+  {
+    "sentence_id": "S048",
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "missing_facet": "direct support missing",
+    "preferred_evidence_type": "mechanism_review_or_in_vitro",
+    "rewrite_required": false,
+    "next_action": "add mechanism-grounded support"
+  },
+  {
+    "sentence_id": "S049",
+    "salvage_class": "MECHANISTIC_SALVAGE",
+    "missing_facet": "direct support missing",
+    "preferred_evidence_type": "mechanism_review_or_in_vitro",
+    "rewrite_required": false,
+    "next_action": "add mechanism-grounded support"
+  },
+  {
+    "sentence_id": "S054",
+    "salvage_class": "SENTENCE_WEAKEN_REQUIRED",
+    "missing_facet": "claim too strong for current support",
+    "preferred_evidence_type": "human_or_direct_support",
+    "rewrite_required": true,
+    "next_action": "weaken or narrow sentence"
+  },
+  {
+    "sentence_id": "S058",
+    "salvage_class": "RETRIEVAL_RETRY",
+    "missing_facet": "attachable evidence missing",
+    "preferred_evidence_type": "direct_or_indirect_human",
+    "rewrite_required": false,
+    "next_action": "retry retrieval with narrowed query"
+  }
+]

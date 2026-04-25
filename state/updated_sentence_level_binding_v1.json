@@ -1,0 +1,544 @@
+[
+  {
+    "sentence_id": "S003",
+    "claim_id": "CLM_S003",
+    "claim_type": "advocacy_claim",
+    "risk_level": "high",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [
+      {
+        "score": 2,
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "passage_id": "Sun_2011_young_ECM_MSC_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "MSC ex vivo proxy",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Aged MSCs cultured on young ECM recover adhesive behavior and differentiation potential.",
+        "claim_ceiling_note": "MSC ex vivo proxy ceiling",
+        "population_or_context": "MSC ex vivo proxy"
+      }
+    ],
+    "selected_count": 1,
+    "unselected_count": 6,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S003-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S003-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S004",
+    "claim_id": "CLM_S004",
+    "claim_type": "weak_bridge_sentence",
+    "risk_level": "medium",
+    "support_grade": "insufficient",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S004-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S004-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S016",
+    "claim_id": "CLM_S016",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "insufficient",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S016-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S016-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S019",
+    "claim_id": "CLM_S019",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "direct_support",
+    "selected_evidence": [
+      {
+        "score": 5,
+        "paper_id": "Qin_2018_mmp_loop",
+        "passage_id": "Qin_2018_mmp_loop_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "dermal fibroblast mechanism",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Fragmented collagen reduces fibroblast spreading and mechanical tension.",
+        "claim_ceiling_note": "dermal fibroblast mechanism ceiling",
+        "population_or_context": "dermal fibroblast mechanism"
+      }
+    ],
+    "selected_count": 1,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S019-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S019-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S020",
+    "claim_id": "CLM_S020",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "mechanism_support",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S020-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S020-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S021",
+    "claim_id": "CLM_S021",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "mechanism_support",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S021-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S021-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S023",
+    "claim_id": "CLM_S023",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "mechanism_support",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S023-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S023-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S025",
+    "claim_id": "CLM_S025",
+    "claim_type": "translational_extension",
+    "risk_level": "high",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [
+      {
+        "score": 2,
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "passage_id": "Sun_2011_young_ECM_MSC_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "MSC ex vivo proxy",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Aged MSCs cultured on young ECM recover adhesive behavior and differentiation potential.",
+        "claim_ceiling_note": "MSC ex vivo proxy ceiling",
+        "population_or_context": "MSC ex vivo proxy"
+      }
+    ],
+    "selected_count": 1,
+    "unselected_count": 6,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S025-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S025-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S040",
+    "claim_id": "CLM_S040",
+    "claim_type": "translational_extension",
+    "risk_level": "high",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [
+      {
+        "score": 10,
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "passage_id": "Sun_2011_young_ECM_MSC_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "MSC ex vivo proxy",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Aged MSCs cultured on young ECM recover adhesive behavior and differentiation potential.",
+        "claim_ceiling_note": "MSC ex vivo proxy ceiling",
+        "population_or_context": "MSC ex vivo proxy"
+      },
+      {
+        "score": 6,
+        "paper_id": "BMMSC_adhesion_phenotype_2009",
+        "passage_id": "BMMSC_adhesion_phenotype_2009_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "BM-MSC ex vivo direct",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "By days 7 to 21, adhesion to all matrix proteins declined significantly and cells became rounded or motile with many protrusions.",
+        "claim_ceiling_note": "BM-MSC ex vivo direct ceiling",
+        "population_or_context": "BM-MSC ex vivo direct"
+      },
+      {
+        "score": 5,
+        "paper_id": "Lukjanenko_2016_FN_niche",
+        "passage_id": "Lukjanenko_2016_FN_niche_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "adjacent domain niche",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Fibronectin is substantially reduced in the aged niche.",
+        "claim_ceiling_note": "adjacent domain niche ceiling",
+        "population_or_context": "adjacent domain niche"
+      }
+    ],
+    "selected_count": 3,
+    "unselected_count": 4,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S040-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S040-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S043",
+    "claim_id": "CLM_S043",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "mechanism_support",
+    "selected_evidence": [
+      {
+        "score": 6,
+        "paper_id": "Integrin_aging_review_2019",
+        "passage_id": "Integrin_aging_review_2019_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "mechanism review",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Inside-out signaling requires talin-mediated conformational changes.",
+        "claim_ceiling_note": "mechanism review ceiling",
+        "population_or_context": "mechanism review"
+      }
+    ],
+    "selected_count": 1,
+    "unselected_count": 1,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S043-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S043-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S045",
+    "claim_id": "CLM_S045",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "mechanism_support",
+    "selected_evidence": [
+      {
+        "score": 8,
+        "paper_id": "Integrin_aging_review_2019",
+        "passage_id": "Integrin_aging_review_2019_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "mechanism review",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Inside-out signaling requires talin-mediated conformational changes.",
+        "claim_ceiling_note": "mechanism review ceiling",
+        "population_or_context": "mechanism review"
+      },
+      {
+        "score": 2,
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "passage_id": "Sun_2011_young_ECM_MSC_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "MSC ex vivo proxy",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Aged MSCs cultured on young ECM recover adhesive behavior and differentiation potential.",
+        "claim_ceiling_note": "MSC ex vivo proxy ceiling",
+        "population_or_context": "MSC ex vivo proxy"
+      }
+    ],
+    "selected_count": 2,
+    "unselected_count": 1,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S045-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S045-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S048",
+    "claim_id": "CLM_S048",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "insufficient",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 0,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S048-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S048-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S049",
+    "claim_id": "CLM_S049",
+    "claim_type": "mechanism_claim",
+    "risk_level": "medium",
+    "support_grade": "mechanism_support",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 1,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S049-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S049-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S051",
+    "claim_id": "CLM_S051",
+    "claim_type": "translational_extension",
+    "risk_level": "high",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [
+      {
+        "score": 5,
+        "paper_id": "FOXO_Nrf2_ECM_longevity",
+        "passage_id": "FOXO_Nrf2_ECM_longevity_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "longevity mechanism",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "FOXO and Nrf2 preserve collagen homeostasis and stress resilience.",
+        "claim_ceiling_note": "longevity mechanism ceiling",
+        "population_or_context": "longevity mechanism"
+      }
+    ],
+    "selected_count": 1,
+    "unselected_count": 6,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S051-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S051-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S054",
+    "claim_id": "CLM_S054",
+    "claim_type": "translational_extension",
+    "risk_level": "high",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 7,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S054-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S054-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S058",
+    "claim_id": "CLM_S058",
+    "claim_type": "weak_bridge_sentence",
+    "risk_level": "medium",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [],
+    "selected_count": 0,
+    "unselected_count": 3,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S058-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S058-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  },
+  {
+    "sentence_id": "S059",
+    "claim_id": "CLM_S059",
+    "claim_type": "advocacy_claim",
+    "risk_level": "high",
+    "support_grade": "complete_refutation",
+    "selected_evidence": [
+      {
+        "score": 11,
+        "paper_id": "Lukjanenko_2016_FN_niche",
+        "passage_id": "Lukjanenko_2016_FN_niche_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "adjacent domain niche",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Fibronectin is substantially reduced in the aged niche.",
+        "claim_ceiling_note": "adjacent domain niche ceiling",
+        "population_or_context": "adjacent domain niche"
+      },
+      {
+        "score": 6,
+        "paper_id": "Sun_2011_young_ECM_MSC",
+        "passage_id": "Sun_2011_young_ECM_MSC_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "MSC ex vivo proxy",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "Aged MSCs cultured on young ECM recover adhesive behavior and differentiation potential.",
+        "claim_ceiling_note": "MSC ex vivo proxy ceiling",
+        "population_or_context": "MSC ex vivo proxy"
+      },
+      {
+        "score": 6,
+        "paper_id": "BMMSC_adhesion_phenotype_2009",
+        "passage_id": "BMMSC_adhesion_phenotype_2009_KP01",
+        "support_or_limit": "support",
+        "what_it_actually_supports": "BM-MSC ex vivo direct",
+        "what_it_does_not_support": "broad cross-domain generalization not guaranteed",
+        "key_passage_text": "By days 7 to 21, adhesion to all matrix proteins declined significantly and cells became rounded or motile with many protrusions.",
+        "claim_ceiling_note": "BM-MSC ex vivo direct ceiling",
+        "population_or_context": "BM-MSC ex vivo direct"
+      }
+    ],
+    "selected_count": 3,
+    "unselected_count": 4,
+    "refresh_status": "refreshed",
+    "candidate_ladder": [
+      {
+        "candidate_id": "S059-cand-1",
+        "mode": "direct",
+        "fulltext_status": "unknown"
+      },
+      {
+        "candidate_id": "S059-cand-2",
+        "mode": "mechanism",
+        "fulltext_status": "unknown"
+      }
+    ]
+  }
+]

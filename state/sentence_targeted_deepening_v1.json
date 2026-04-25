@@ -1,0 +1,260 @@
+[
+  {
+    "sentence_id": "S003",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 1,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "keyword_only_match"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Sun_2011_young_ECM_MSC"
+    ]
+  },
+  {
+    "sentence_id": "S004",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "insufficient"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "attachable evidence missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S016",
+    "mode": "stronger_mechanism_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "insufficient"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "direct support missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S019",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 1,
+      "support_grade": "direct_support"
+    },
+    "weakness_profile": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Qin_2018_mmp_loop"
+    ]
+  },
+  {
+    "sentence_id": "S020",
+    "mode": "stronger_mechanism_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "mechanism_support"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "direct support missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S021",
+    "mode": "stronger_mechanism_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "mechanism_support"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "direct support missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S023",
+    "mode": "stronger_mechanism_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "mechanism_support"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "direct support missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S025",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 1,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "keyword_only_match"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Sun_2011_young_ECM_MSC"
+    ]
+  },
+  {
+    "sentence_id": "S040",
+    "mode": "sharpen_logic",
+    "current_binding_summary": {
+      "selected_count": 3,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Sun_2011_young_ECM_MSC",
+      "BMMSC_adhesion_phenotype_2009",
+      "Lukjanenko_2016_FN_niche"
+    ]
+  },
+  {
+    "sentence_id": "S043",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 1,
+      "support_grade": "mechanism_support"
+    },
+    "weakness_profile": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Integrin_aging_review_2019"
+    ]
+  },
+  {
+    "sentence_id": "S045",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 2,
+      "support_grade": "mechanism_support"
+    },
+    "weakness_profile": [
+      "direct_quote_match",
+      "keyword_only_match",
+      "mechanism_support_only"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Integrin_aging_review_2019",
+      "Sun_2011_young_ECM_MSC"
+    ]
+  },
+  {
+    "sentence_id": "S048",
+    "mode": "stronger_mechanism_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "insufficient"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "direct support missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S049",
+    "mode": "stronger_mechanism_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "mechanism_support"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "direct support missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S051",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 1,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "indirect_but_relevant",
+      "mechanism_support_only"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "FOXO_Nrf2_ECM_longevity"
+    ]
+  },
+  {
+    "sentence_id": "S054",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "claim too strong for current support",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S058",
+    "mode": "stronger_human_first",
+    "current_binding_summary": {
+      "selected_count": 0,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "no_attachable_support",
+      "human_evidence_missing"
+    ],
+    "deepening_targets": "attachable evidence missing",
+    "recommended_candidates": []
+  },
+  {
+    "sentence_id": "S059",
+    "mode": "sharpen_logic",
+    "current_binding_summary": {
+      "selected_count": 3,
+      "support_grade": "complete_refutation"
+    },
+    "weakness_profile": [
+      "direct_quote_match",
+      "indirect_but_relevant"
+    ],
+    "deepening_targets": "fit/coverage",
+    "recommended_candidates": [
+      "Lukjanenko_2016_FN_niche",
+      "Sun_2011_young_ECM_MSC",
+      "BMMSC_adhesion_phenotype_2009"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "Qin_2018_mmp_loop": {
+    "title_full": "Fragmented collagen activates matrix metalloproteinase-1 expression and reduces mechanical tension in dermal fibroblasts",
+    "title_ko": "분절된 콜라겐은 진피 섬유아세포에서 기계적 장력을 낮추고 MMP-1 발현을 유도한다",
+    "vancouver_citation": "Qin et al. Fragmented collagen activates matrix metalloproteinase-1 expression and reduces mechanical tension in dermal fibroblasts. 2018.",
+    "support_ko": {
+      "dermal fibroblast mechanism": "진피 섬유아세포 수준에서 기질 손상과 장력 저하가 어떤 기전 변화를 만드는지 보여주는 근거입니다."
+    },
+    "passage_ko": {
+      "Fragmented collagen reduces fibroblast spreading and mechanical tension.": "분절된 콜라겐은 섬유아세포의 퍼짐과 기계적 장력을 감소시킨다.",
+      "Lower tension increases MMP-1 expression, reinforcing matrix damage.": "장력이 낮아지면 MMP-1 발현이 증가하여 기질 손상이 더 강화된다.",
+      "This does not itself prove clinical rejuvenation by matrix-directed interventions.": "이 사실만으로 기질 조절 개입이 임상적 회춘을 일으킨다고 증명되지는 않는다."
+    }
+  },
+  "Lukjanenko_2016_FN_niche": {
+    "title_full": "Loss of fibronectin from the muscle stem cell niche with age impairs regenerative function",
+    "title_ko": "노화와 함께 줄기세포 틈새의 fibronectin이 감소하면 재생 기능이 저하된다",
+    "vancouver_citation": "Lukjanenko et al. Loss of fibronectin from the muscle stem cell niche with age impairs regenerative function. 2016.",
+    "support_ko": {
+      "adjacent domain niche": "피부는 아니지만, 노화된 niche에서 ECM 성분 감소가 줄기세포 유지와 재생 기능을 떨어뜨릴 수 있다는 인접 영역 근거입니다."
+    },
+    "passage_ko": {
+      "Fibronectin is substantially reduced in the aged niche.": "노화된 niche에서는 fibronectin이 현저히 감소한다.",
+      "Aged niche remodeling impairs stem cell maintenance.": "노화된 niche의 재구성은 줄기세포 유지 기능을 저해한다.",
+      "This is skeletal muscle niche evidence, not direct skin or general anti-aging proof.": "이 근거는 골격근 줄기세포 niche에 대한 것이며, 피부나 일반적 항노화 효과를 직접 증명하는 것은 아니다."
+    }
+  },
+  "Sun_2011_young_ECM_MSC": {
+    "title_full": "A young extracellular matrix microenvironment restores mesenchymal stem cell regenerative capacity",
+    "title_ko": "젊은 세포외기질 미세환경은 중간엽 줄기세포의 재생 능력을 회복시킨다",
+    "vancouver_citation": "Sun et al. A young extracellular matrix microenvironment restores mesenchymal stem cell regenerative capacity. 2011.",
+    "support_ko": {
+      "MSC ex vivo proxy": "젊은 ECM 환경이 노화된 줄기세포의 부착성과 분화 잠재력을 회복시킬 수 있다는 ex vivo 수준의 간접 근거입니다."
+    },
+    "passage_ko": {
+      "Aged MSCs cultured on young ECM recover adhesive behavior and differentiation potential.": "젊은 ECM 위에서 배양된 노화 MSC는 부착 행동과 분화 잠재력을 회복한다.",
+      "The evidence is ex vivo and does not directly establish clinical rejuvenation in vivo.": "이 근거는 ex vivo 수준이며, 생체 내 임상적 회춘을 직접 입증하지는 않는다.",
+      "Model-specific outcome.": "이 결과는 특정 모델에 한정된 결과이다."
+    }
+  },
+  "BMMSC_adhesion_phenotype_2009": {
+    "title_full": "Extracellular matrix adhesion directs mesenchymal stem cell phenotype and function during aging-related change",
+    "title_ko": "세포외기질 부착은 노화 관련 변화 동안 중간엽 줄기세포의 표현형과 기능을 좌우한다",
+    "vancouver_citation": "BMMSC adhesion phenotype study. Extracellular matrix adhesion directs mesenchymal stem cell phenotype and function during aging-related change. 2009.",
+    "support_ko": {
+      "BM-MSC ex vivo direct": "골수 유래 MSC가 노화 과정에서 ECM 부착성을 잃고 형태가 바뀌는 현상을 직접 보여주는 ex vivo 근거입니다."
+    },
+    "passage_ko": {
+      "By days 7 to 21, adhesion to all matrix proteins declined significantly and cells became rounded or motile with many protrusions.": "7일에서 21일 사이에 모든 기질 단백에 대한 부착이 유의하게 감소했고, 세포는 둥글어지거나 돌기가 많은 이동성 형태로 변했다.",
+      "MG-63 controls maintained stable adhesion.": "MG-63 대조군은 안정적인 부착을 유지했다.",
+      "Ex vivo expansion model, not direct in vivo homing proof.": "이것은 ex vivo 확장 모델이며, 생체 내 homing을 직접 증명하는 것은 아니다."
+    }
+  },
+  "Integrin_aging_review_2019": {
+    "title_full": "Integrin signaling in aging tissues: adhesion, mechanotransduction, and functional decline",
+    "title_ko": "노화 조직에서의 인테그린 신호: 부착, 기계전달, 기능 저하",
+    "vancouver_citation": "Integrin aging review. Integrin signaling in aging tissues: adhesion, mechanotransduction, and functional decline. 2019.",
+    "support_ko": {
+      "mechanism review": "인테그린-초점부착-기계전달 축이 노화에서 어떻게 약해질 수 있는지 설명하는 기전 리뷰 근거입니다."
+    },
+    "passage_ko": {
+      "Inside-out signaling requires talin-mediated conformational changes.": "inside-out 신호전달에는 talin이 매개하는 구조 변화가 필요하다.",
+      "Outside-in signaling activates FAK and paxillin.": "outside-in 신호전달은 FAK와 paxillin을 활성화한다.",
+      "Aging can reduce integrin expression and impair focal adhesion signaling efficiency.": "노화는 인테그린 발현을 감소시키고 초점부착 신호 효율을 떨어뜨릴 수 있다."
+    }
+  },
+  "FOXO_Nrf2_ECM_longevity": {
+    "title_full": "FOXO, Nrf2, and extracellular matrix stress adaptation in longevity-associated tissue maintenance",
+    "title_ko": "FOXO, Nrf2, 그리고 장수 관련 조직 유지에서의 세포외기질 스트레스 적응",
+    "vancouver_citation": "FOXO Nrf2 ECM review. FOXO, Nrf2, and extracellular matrix stress adaptation in longevity-associated tissue maintenance.",
+    "support_ko": {
+      "longevity mechanism": "FOXO와 Nrf2가 ECM 항상성과 스트레스 적응에 관여할 수 있음을 보여주는 장수 기전 근거입니다."
+    },
+    "passage_ko": {
+      "FOXO and Nrf2 preserve collagen homeostasis and stress resilience.": "FOXO와 Nrf2는 콜라겐 항상성과 스트레스 회복력을 유지하는 데 기여한다.",
+      "Shared molecular association does not prove one universal ECM master mechanism for all longevity effects.": "분자적 연관성이 있다고 해서 모든 장수 효과를 하나의 보편적 ECM 핵심 기전으로 증명하는 것은 아니다."
+    }
+  },
+  "Entropy_definition_aging_general": {
+    "title_full": "Entropy and aging: conceptual definitions, scope, and limitations",
+    "title_ko": "엔트로피와 노화: 개념 정의, 적용 범위, 그리고 한계",
+    "vancouver_citation": "Entropy and aging review. Entropy and aging: conceptual definitions, scope, and limitations.",
+    "support_ko": {
+      "conceptual refutation": "엔트로피를 노화 설명의 은유로는 쓸 수 있지만, 임상적 노화를 완전한 열역학 정의로 환원하기는 어렵다는 반박 근거입니다."
+    },
+    "passage_ko": {
+      "Entropy metaphors can be useful heuristics, but aging cannot be reduced to a complete thermodynamic definition at the organismal clinical level.": "엔트로피 은유는 유용한 휴리스틱일 수 있지만, 개체 수준의 임상적 노화를 완전한 열역학 정의로 환원할 수는 없다."
+    }
+  }
+}

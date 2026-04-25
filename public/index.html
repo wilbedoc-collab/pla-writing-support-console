@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="manifest" href="/manifest.webmanifest?v=20260423b" />
+  <title>PLA ClaimEvidence Unified WebUI v2</title>
+  <link rel="stylesheet" href="/styles.css?v=20260423b" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">PLA Review UI v2</div>
+    <div class="topbar-actions">
+      <select id="docSelect"></select>
+      <button id="debugToggle" title="hidden debug mode">⋯</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="left-pane">
+      <div class="mobile-mode-switch">
+        <button id="modeReadAll" class="active">전체 글</button>
+        <button id="modeReview">문장 검토</button>
+      </div>
+      <div class="overview" id="overview"></div>
+      <div class="filters">
+        <select id="statusFilter">
+          <option value="">전체 상태</option>
+          <option value="strong">strong</option>
+          <option value="weak">weak</option>
+          <option value="risky">risky</option>
+          <option value="caveat-needed">caveat-needed</option>
+          <option value="refutation-review">refutation-review</option>
+          <option value="pending-evidence">pending-evidence</option>
+        </select>
+        <select id="riskFilter">
+          <option value="">전체 리스크</option>
+          <option value="high">high</option>
+          <option value="medium">medium</option>
+          <option value="low">low</option>
+        </select>
+      </div>
+      <div id="fullTextView" class="fulltext-view"></div>
+      <div id="sentenceList" class="sentence-list hidden-mobile-pane"></div>
+    </aside>
+
+    <section class="center-pane">
+      <div id="sentenceDetail" class="sentence-detail empty">문장을 선택하세요.</div>
+    </section>
+
+    <aside class="right-pane">
+      <div class="tabs">
+        <button data-tab="evidence" class="active">Evidence</button>
+        <button data-tab="recommendations">Recommendations</button>
+        <button data-tab="citation">Citation</button>
+        <button data-tab="transition">Transition</button>
+        <button data-tab="feedback">Feedback</button>
+        <button data-tab="refutation">Refutation</button>
+        <button data-tab="pending">Pending</button>
+      </div>
+      <div id="rightPaneContent" class="right-pane-content"></div>
+    </aside>
+  </main>
+
+  <div id="mobileDetailPage" class="mobile-detail-page hidden">
+    <div class="sheet-header">
+      <button id="closeDetailPage">뒤로</button>
+      <div id="detailPageTitle">문장 상세</div>
+    </div>
+    <div id="mobileDetailContent" class="sheet-content"></div>
+    <div class="mobile-tabbar">
+      <button data-mobile-page-tab="evidence" class="active">근거</button>
+      <button data-mobile-page-tab="recommendations">추천</button>
+      <button data-mobile-page-tab="citation">인용</button>
+      <button data-mobile-page-tab="transition">흐름</button>
+      <button data-mobile-page-tab="feedback">피드백</button>
+      <button data-mobile-page-tab="refutation">반박</button>
+      <button data-mobile-page-tab="pending">대기</button>
+    </div>
+  </div>
+
+  <div id="debugPanel" class="debug-panel hidden"></div>
+
+  <script src="/app.js?v=20260423b"></script>
+</body>
+</html>

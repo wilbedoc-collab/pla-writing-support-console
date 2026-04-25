@@ -1,0 +1,155 @@
+[
+  {
+    "sentence_id": "S003",
+    "previous_valid_sentence": null,
+    "current_target_sentence": "S003",
+    "next_valid_sentence": "S004",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S004",
+    "previous_valid_sentence": "S003",
+    "current_target_sentence": "S004",
+    "next_valid_sentence": "S016",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S016",
+    "previous_valid_sentence": "S004",
+    "current_target_sentence": "S016",
+    "next_valid_sentence": "S019",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S019",
+    "previous_valid_sentence": "S016",
+    "current_target_sentence": "S019",
+    "next_valid_sentence": "S020",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S020",
+    "previous_valid_sentence": "S019",
+    "current_target_sentence": "S020",
+    "next_valid_sentence": "S021",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S021",
+    "previous_valid_sentence": "S020",
+    "current_target_sentence": "S021",
+    "next_valid_sentence": "S023",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S023",
+    "previous_valid_sentence": "S021",
+    "current_target_sentence": "S023",
+    "next_valid_sentence": "S025",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S025",
+    "previous_valid_sentence": "S023",
+    "current_target_sentence": "S025",
+    "next_valid_sentence": "S040",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S040",
+    "previous_valid_sentence": "S025",
+    "current_target_sentence": "S040",
+    "next_valid_sentence": "S043",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S043",
+    "previous_valid_sentence": "S040",
+    "current_target_sentence": "S043",
+    "next_valid_sentence": "S045",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S045",
+    "previous_valid_sentence": "S043",
+    "current_target_sentence": "S045",
+    "next_valid_sentence": "S048",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S048",
+    "previous_valid_sentence": "S045",
+    "current_target_sentence": "S048",
+    "next_valid_sentence": "S049",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S049",
+    "previous_valid_sentence": "S048",
+    "current_target_sentence": "S049",
+    "next_valid_sentence": "S051",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S051",
+    "previous_valid_sentence": "S049",
+    "current_target_sentence": "S051",
+    "next_valid_sentence": "S054",
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S054",
+    "previous_valid_sentence": "S051",
+    "current_target_sentence": "S054",
+    "next_valid_sentence": "S058",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S058",
+    "previous_valid_sentence": "S054",
+    "current_target_sentence": "S058",
+    "next_valid_sentence": "S059",
+    "transition_verdict": "FLOW_BREAK",
+    "issue_type": "missing_bridge",
+    "recommendation": "check local sentence flow"
+  },
+  {
+    "sentence_id": "S059",
+    "previous_valid_sentence": "S058",
+    "current_target_sentence": "S059",
+    "next_valid_sentence": null,
+    "transition_verdict": "WARN",
+    "issue_type": "unsupported_escalation",
+    "recommendation": "check local sentence flow"
+  }
+]
